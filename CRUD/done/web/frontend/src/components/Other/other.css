@@ -1,0 +1,55 @@
+.itemcontainerother {
+  padding-left: 300px;
+  background-color: rgb(210, 174, 130);
+}
+
+.itemcardother {
+  width: 250px;
+  height: 320px;
+  border: 2px solid black;
+  margin: 20px 0;
+  align-items: center;
+  text-align: center;
+  padding: 10px;
+  background-color: bisque;
+}
+
+.item {
+  width: 100%;
+  height: 220px;
+  background-size: cover;
+}
+
+.homebtnother {
+  cursor: pointer;
+  color: rgb(0, 0, 0);
+  border: 0;
+  padding: 10px 20px;
+  background-color: rgb(190, 190, 189);
+  margin: 10px 0;
+  border-radius: 2px;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.price {
+  color: greenyellow;
+  font-weight: bold;
+  font-size: 25px;
+}
+.itenmtopics {
+  font-weight: bold;
+  font-size: 15px;
+  padding: 8px 0;
+}
+.itemdetailsfull {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+  padding: 0;
+  border: 0;
+  text-align: center;
+  gap: 0 55px;
+}

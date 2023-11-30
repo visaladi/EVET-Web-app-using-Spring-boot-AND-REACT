@@ -1,0 +1,50 @@
+.first-bar {
+  margin-left: 280px;
+  background-color: rgb(251, 231, 52);
+  margin-top: 114px;
+  padding: 15px 0 25px 25px;
+}
+
+.docimg {
+  width: 50px;
+}
+.com {
+  padding: 0 0 0 500px;
+}
+
+.tblcontainer {
+  background-color: rgb(72, 72, 195);
+  width: 100%;
+  height: 70vh;
+}
+
+.tblfill{
+    margin-left: 420px;
+}
+.tblful{
+    background-color: rgb(184, 184, 255);
+    width: 200px;
+    height: 65vh;
+    padding: 0px;
+    border-radius: 25px;
+}
+.table-doctr{
+
+    text-align: center;
+    font-weight: bold;
+}
+.table-doctdr{
+    border: 2px solid white;
+    width: 200px;
+    height: 45px;
+}
+.table-doctd{
+  
+    width: 200px;
+    height: 45px;
+    padding: 10px  0 0 0;
+}
+
+.table-space{
+    width: 50px;
+}

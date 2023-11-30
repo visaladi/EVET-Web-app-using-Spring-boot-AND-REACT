@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+  }
+  .db-container{
+    background-color: #8b5332;
+    width: 100%;
+    height: 75vh;
+}  
+
+.db-table {
+    width: 800px;
+    border-collapse: collapse;
+    margin-left: 450px;
+    font-size: 25px;
+    border: 2px solid white;
+
+}
+
+.db-td {
+    border: 1px solid black;
+    padding: 30px;
+    border: 2px solid white;
+    background-color: rgb(165, 204, 228);
+}
+

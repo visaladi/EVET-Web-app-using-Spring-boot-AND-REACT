@@ -1,0 +1,148 @@
+/*Monoton*/
+@import url("https://fonts.googleapis.com/css2?family=Monoton&family=Roboto&display=swap");
+/*Lily Script One*/
+@import url("https://fonts.googleapis.com/css2?family=Lily+Script+One&family=Monoton&family=Roboto&display=swap");
+/*Kalam*/
+@import url("https://fonts.googleapis.com/css2?family=Kalam&family=Lily+Script+One&family=Monoton&family=Roboto&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* Style for the entire nav01 section */
+.nav01 {
+  padding: 10px;
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  text-align: center; /* Center text within div */
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+  background-color: white;
+}
+
+/* Style for each individual nav item */
+.nav01-navitem {
+  display: flex;
+  align-items: center; /* Center items vertically */
+  margin: 0 10px; /* Add spacing between items */
+}
+
+/* Style for the Dog Foot Logo */
+.nav01-navitem1 .foot {
+  width: 70px;
+}
+
+/* Style for the "EVET" heading */
+.nav01-navitem2 .evet {
+  color: #000000;
+  font-size: 60px;
+  margin: 0;
+  padding: 0px 50px 0 0;
+  font-family: Monoton;
+}
+
+/* Style for the slogan */
+.nav01-navitem3 .res {
+  color: #000000;
+  font-size: 26px;
+  margin: 0;
+  font-style: italic;
+  font-family: Lily Script One;
+}
+
+/* Style for the Dog Logo */
+.nav01-navitem4 .dog {
+  width: 80px;
+}
+/* Style for the Dog Logo in the right corner */
+.nav01-navitem4 {
+  top: 25px;
+  position: absolute;
+  right: 10px;
+}
+
+.nav01-navitem1 {
+  top: 25px;
+  position: absolute;
+  left: 10px;
+}
+
+/* Style for the side navigation bar */
+.sidenavbar {
+  height: 100%;
+  width: 280px;
+  position: fixed;
+  top: 114px;
+  left: 0;
+  background-color: #b8a295;
+  color: white;
+}
+.sidenav {
+  background-color: #ae7f61;
+  padding-top: 20px;
+  padding-left: 10px;
+  width: 80px;
+  height: 100vh;
+}
+
+.sidenavbar .sidenav-ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.sidenavbar .sidenav-ul,
+.sidenav-li {
+  margin-bottom: 10px;
+}
+
+.sidenavbar .sidenav-ul,
+.sidenav-li a {
+  text-decoration: none;
+  color: white;
+  display: block;
+}
+
+.sidenavbar .sidenav-ul .sidenav-li a:hover {
+  background-color: #555;
+}
+
+.navicon {
+  width: 50px;
+  padding: 0 0 10px 0;
+}
+
+.navicondg {
+  width: 60px;
+  padding: 110px 0 10px 0;
+}
+
+.navname {
+  background-color: #878484;
+  width: 210px;
+  padding: 10px;
+  margin: 0 0 15px 0;
+  font-size: 20px;
+}
+
+.navname2 {
+  background-color: #878484;
+  width: 210px;
+  height: 100%;
+  padding: 15px 10px;
+  margin: 40px 0 0 0;
+  font-size: 20px;
+  text-align: center;
+  font-family: Kalam;
+}
+.naviconlg {
+  margin: 0 10px 0 0;
+}
+
+.Link{
+  text-decoration: none;
+  color: white;
+}

@@ -1,0 +1,81 @@
+* {
+  box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 300px;
+  /* Should be removed. Only for demonstration */
+}
+.row {
+  margin-left: 280px;
+}
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+  background-color: aquamarine;
+}
+
+.cone {
+  background-image: url(./img/chat.jpg);
+  width: 50%;
+  height: 50vh;
+  background-size: cover;
+  background-position: center;
+}
+.ctwo {
+  background-color: rgb(172, 171, 171);
+  width: 50%;
+  height: 50vh;
+  padding: 20px 0 0 40px;
+}
+.ctwot1 {
+  margin: 0 0 20px 0;
+  background-color: white;
+  width: 150px;
+  text-align: center;
+  border-radius: 15px;
+  padding: 10px;
+}
+
+.ctwot2 {
+  margin: 0 0 20px 0;
+  background-color: white;
+  width: 250px;
+  text-align: center;
+  border-radius: 15px;
+  padding: 10px;
+}
+
+.ctwot-chat-input {
+  width: 80%;
+  height: 40px;
+  border-radius: 10px;
+  border: 0;
+  padding: 0 0 0 15px;
+  font-size: 17px;
+}
+.ctwot-chat-btn {
+  height: 40px;
+  width: 100px;
+  border-radius: 10px;
+  border: 0;
+  font-weight: bold;
+  font-size: 17px;
+  margin: 0 0 0 10px;
+  cursor: pointer;
+}
+
+.inptchat {
+  padding: 130px 0 0 0;
+}
+.ctwot-chat-input:focus {
+  outline: none;
+}
+
+

@@ -1,0 +1,47 @@
+.updatebtn{
+    margin: 0 20px;
+    padding: 10px;
+    color: white;
+    border: 0;
+    background-color: rgb(138, 160, 93);
+    cursor: pointer;
+}
+
+.deletebtn{
+    margin: 0 20px;
+    padding: 10px;
+    color: white;
+    border: 0;
+    background-color: red;
+    cursor: pointer;
+
+}
+
+.product-tbl{
+    padding: 100px 0;
+}
+
+.addproductbtn{
+    position: absolute;
+    border: 2px solid white;
+    background-color: rgb(2, 88, 2);
+    color: white;
+    padding: 25px;
+    font-size: 25px;
+    border-radius: 5px;
+    cursor: pointer;
+    
+    
+}
+
+.product-add-btn{
+    padding:20px 0 20px 800px;
+
+}
+
+.medicontainer {
+    background-color: #8b5332;
+    width: 100%;
+    height: auto;
+  }
+  

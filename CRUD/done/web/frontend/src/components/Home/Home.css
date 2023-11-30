@@ -1,0 +1,60 @@
+.coverhoto {
+  background-image: url(./img/cover.jpg);
+  width: 100%;
+  height: 550px;
+  background-size: cover;
+}
+
+.itemcontainer {
+  padding-left: 300px;
+}
+
+.itemcard {
+  width: 250px;
+  height: 370px;
+  border: 2px solid black;
+  margin: 20px 0;
+  align-items: center;
+  text-align: center;
+  padding: 10px;
+}
+
+.item {
+  width: 100%;
+  height: 220px;
+  background-size: cover;
+}
+
+.homebtn {
+  cursor: pointer;
+  color: rgb(0, 0, 0);
+  border: 0;
+  padding: 10px 20px;
+  background-color: rgb(155, 145, 53);
+  margin: 10px 0;
+  border-radius: 2px;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.price {
+  color: rgb(116, 87, 24);
+  font-weight: bold;
+  font-size: 25px;
+}
+.itenmtopics {
+  font-weight: bold;
+  font-size: 15px;
+  padding: 8px 0;
+}
+.itemdetailsfull{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    padding: 0;
+    border: 0;
+    text-align: center;
+    gap:0 55px;
+}

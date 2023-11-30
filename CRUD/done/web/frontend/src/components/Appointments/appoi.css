@@ -1,0 +1,68 @@
+* {
+  padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+}
+.appointment-full {
+  background-image: url(./img/bkapp.jpg);
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+
+.appointment-topic {
+  font-size: 70px;
+  color: red;
+  text-align: center;
+  padding: 150px 0 40px 0;
+}
+
+.appointment-box-container {
+  background-color: white;
+  width: 450px;
+  height: 300px;
+  padding: 20px 60px;
+  border-radius: 10px;
+  box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.4); /* Adjust values as needed */
+}
+
+.appointment-box {
+  margin-left: 550px;
+}
+
+.appointment-imput {
+  border-bottom: 2px solid red;
+  border-left: 0px;
+  border-right: 0px;
+  border-top: 0px;
+  width: 100%;
+  margin: 10px 0;
+  font-size: 17px;
+  padding: 0 0 2px 5px;
+}
+
+.appbtn {
+  text-align: center;
+  width: 100%;
+  border: 0;
+  color: white;
+  background-color: rgb(172, 7, 7);
+  padding: 8px 0;
+  font-size: 24px;
+  font-weight: bold;
+  margin: 10px 0;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.appbtn:hover {
+  background-color: rgba(172, 7, 7, 0.729);
+}
+.serch {
+  margin: 0 5px 0 0;
+  font-size: 25px;
+  font-weight: bold;
+}
+.appointment-imput:focus {
+  outline: none;
+}
